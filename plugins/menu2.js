@@ -7,7 +7,7 @@ let handler = async(m, { conn, groupMetadata, usedPrefix, text, args, command })
 let frep = { contextInfo: { externalAdReply: {title: global.wm, body: global.author, sourceUrl: snh, thumbnail: readFileSync('./thumbnail.jpg')}}}
 let fdoc = {quoted:{key : {participant : '0@s.whatsapp.net'},message: {documentMessage: {title: `${command}`}}}}
 let imgr = flaaa.getRandom()
-let res = JSON.parse(readFileSync('./json/emoji.json'))
+let res = JSON.parse(readFileSync('./src/emoji.json'))
 let em = res.emoji
 let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
 let pp = await conn.profilePictureUrl(who).catch(_ => hwaifu.getRandom())
@@ -43,7 +43,7 @@ let pp = await conn.profilePictureUrl(who).catch(_ => hwaifu.getRandom())
 *☘︎ Nama:* *${name}*
 *☘︎ Money:* *RP* ${money}
 *☘︎ Level* ${level}
-*☘︎Role:* ${role}
+*☘︎ Role:* ${role}
 *☘︎ XP:* TOTAL ${exp} (${exp - min} / ${xp}) [${math <= 0 ? `Siap untuk *${usedPrefix}levelup*` : `${math} XP lagi untuk levelup`}]
 *☘︎ Terdaftar:* ${registered ? 'Ya (' + new Date(regTime).toLocaleString() + ')' : 'Tidak'} ${lastclaim > 0 ? '\n*⏱️Terakhir Klaim:* ' + new Date(lastclaim).toLocaleString() : ''}\n\n Ketik ${usedPrefix}inv untuk melihat Inventory RPG`
 
