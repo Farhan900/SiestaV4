@@ -16,20 +16,7 @@ const defaultMenu = {
  *U S E R*
  *Name:* %name
  *Status:* %prems
- *Limit:* %limit
- *Money:* %money
- *Role:* %role
- *Level:* %level [ %xp4levelup Xp For Levelup]
- *Xp:* %exp / %maxexp
  *Total Xp:* %totalexp
-
-
- *T O D A Y*
- *Days:* %week %weton
- *Date:* %date
- *Islamic Date:* %dateIslamic
- *Time:* %wib
-
 
  *I N F O*
  *Bot Name:* %me
@@ -549,9 +536,9 @@ const listMessage = {
     throw e
   }
 }
-handler.help = ['menu', 'help', '?']
+handler.help = ['menulist', 'm', '?']
 handler.tags = ['main']
-handler.command = /^(menu|help|\?)$/i
+handler.command = /^(menulist|m|\?)$/i
 
 handler.register = true
 handler.exp = 3
