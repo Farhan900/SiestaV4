@@ -69,7 +69,7 @@ let weem = `📮 *Note:* Jika menemukan bug, error atau kesulitan dalam pengguna
 'caption': cap,
 'footer': weem,
 'buttons': [
-{'buttonId': usedPrefix + 'menu all','buttonText': {'displayText': `${em.getRandom()} All Menu`},'type': 1},
+{'buttonId': usedPrefix + '? all','buttonText': {'displayText': `${em.getRandom()} All Menu`},'type': 1},
 {'buttonId': usedPrefix + 'menulist','buttonText': {'displayText': `${em.getRandom()} List Menu`},'type': 1}
 ],
 'headerType': 6}
