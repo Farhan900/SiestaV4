@@ -1,12 +1,10 @@
-import fs from 'fs'
-import fetch from 'node-fetch'
-let handler  = async (m, { conn, usedPrefix: _p }) => {
-let info = `Walaikusallam`
+et handler  = async (m, { conn, usedPrefix: _p }) => {
+let info = `Walaikumsallam
+`.trim()
 
-let td = 'application/vnd.openxmlformats-officedocument.wordprocessingml.document'
-conn.reply(m.chat, info, m, { contextInfo: { externalAdReply: {title: global.nameown, body: `BotzzMeeⓋ︎`, sourceUrl: snh, thumbnail: fs.readFileSync('./thumbnail.jpg')  }}})
+conn.fakeReply(m.chat, info, '0@s.whatsapp.net', `${titlebot}`, 'status@broadcast')
 }
-handler.customPrefix = /^(Assalamu'alaikum|Assalammualaikum|p|bot)$/i
+handler.customPrefix = /^(Assalamu'alaikum|Assalamualaikum|assalammualaikum|bot)$/i
 handler.command = new RegExp
 
 export default handler
