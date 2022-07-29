@@ -42,34 +42,34 @@ let wibh = moment.tz('Asia/Jakarta').format('HH')
     
 
 /*============== SOCIAL ==============*/
-global.sig = 'https://instagram.com/lampu_philips267'
-global.sgh = 'https://github.com/RyhnXD'
-global.sgc = 'https://chat.whatsapp.com/IJ5wIhRoB4i5d89Av7QWNq'
-global.sdc = 'https://github.com/RyhnXD'
-global.stg = 'wa.me/6289524208209'
+global.sig = 'https://instagram.com/farhan123_'
+global.sgh = 'https://github.com/Rieltod'
+global.sgc = 'https://chat.whatsapp.com/CU0NIekiHQzCm5H2qUP1Lx'
+global.sdc = 'https://github.com/Rieltod'
+global.stg = 'wa.me/62882006485504'
 global.snh = 'nhentai.net/372963/'
 
 /*============== PAYMENT ==============*/
-global.pdana = '083174508962'
-global.povo = '083174508962'
-global.pgopay = '083174508962'
-global.ppulsa = '083174508962'
-global.ppulsa2 = '08979530736'
+global.pdana = '62882006485504'
+global.povo = '62882006485504'
+global.pgopay = '62882006485504'
+global.ppulsa = '62882006485504'
+global.ppulsa2 = '62882006485504'
 global.psaweria = 'https://saweria.co/BaraXDz'
 
 /*============== NOMOR ==============*/
 global.nomorbot = '6281779211748'
-global.nomorown = '6289524208209'
-global.namebot = 'ᴍɪᴋᴏᴛᴏ'
+global.nomorown = '62882006485504'
+global.namebot = 'FARHANBOTZ-Md'
 global.nameown = 'ʜᴀɴ'
 
 
 /*============== STAFF ==============*/
 global.owner = [
-  ['6289524208209'],
-  ['6289524208209'],
-  ['6289524208209'],
-  ['6289524208209', 'ʜᴀɴ', true]
+  ['62882006485504'],
+  ['62882006485504'],
+  ['62882006485504'],
+  ['62882006485504', 'ʜᴀɴ', true]
   // [number, dia creator/owner?, dia developer?]
 ] // Put your number here
 global.mods = [] // Want some help?
@@ -114,9 +114,9 @@ global.APIKeys = { // APIKey Here
 
 
 /*============== WATERMARK ==============*/
-global.wm = 'ᴍɪᴋᴏᴛᴏ' //Main Watermark
-global.wm2 = 'Halo kak Selamat datang di ᴍɪᴋᴏᴛᴏ ʙᴏᴛᴢ👋'
-global.wm3 = '☘︎ ᴍɪᴋᴏᴛᴏ ʙᴏᴛᴢ'
+global.wm = 'FARHANBOTZ-Md' //Main Watermark
+global.wm2 = 'Halo kak Selamat datang di FARHANBOTZ-Md👋'
+global.wm3 = '☘︎ FARHANBOTZ-Md'
 global.botdate = `☘︎ 𝗗𝗮𝘁𝗲: ${week} ${date}\n☘︎ 𝗧𝗶𝗺𝗲: ${wktuwib}`
 global.bottime = `𝗧 𝗜 𝗠 𝗘 : ${wktuwib}`
 global.titlebot = `☘︎ 𝗪𝗵𝗮𝘁𝘀𝗮𝗽𝗽 𝗕𝗼𝘁 𝗠𝘂𝗹𝘁𝗶-𝗗𝗲𝘃𝗶𝗰𝗲| By ${global.nameown}`
@@ -156,7 +156,7 @@ global.hbeach = ['https://telegra.ph/file/14ae0ba2da77d74e6b80c.jpg', 'https://t
 /*============== TEXT ==============*/
 global.wait = '_*Loading*_ ...'
 global.eror = '```404 error```'
-global.fkontak = '6289524208209@Whatsapp.net'
+global.fkontak = '62882006485504@Whatsapp.net'
 
 /*=========== TYPE DOCUMENT ===========*/
 global.dpptx = 'application/vnd.openxmlformats-officedocument.presentationml.presentation'
@@ -194,7 +194,7 @@ global.htjava = '☘︎' //hiasan Doang :v
 
 /*============== STICKER WM ==============*/
 global.stickpack = 'ᴅɪ ʙᴜᴀᴛ ᴏʟᴇʜ'
-global.stickauth = `☘︎ ᴍɪᴋᴏᴛᴏ ʙᴏᴛᴢ [081779211748] nomor botz`
+global.stickauth = `☘︎ FARHANBOTZ-Md`
 
 global.multiplier = 38 // The higher, The harder levelup
 
